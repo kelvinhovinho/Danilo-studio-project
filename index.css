@@ -16,3 +16,8 @@ header{
     font-size: 19px;
     line-height: 36px;
 }
+.services{
+    background-image: url(./img/s_image.jpg);
+    height: 320px;
+    width: 100%;
+}
