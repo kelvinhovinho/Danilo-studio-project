@@ -32,3 +32,13 @@ header{
     width: 100%;
     height: 520px;
 }
+/* .form-control{
+    background-color: transparent;
+    border-radius: 1%;
+}
+#comment{
+    border-radius: 1%;
+}
+::placeholder{
+    color:aliceblue !important;
+} */
