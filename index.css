@@ -40,5 +40,10 @@ header{
     border-radius: 1%;
 }
 ::placeholder{
-    color:aliceblue !important;
+    color: azure !important;
+}
+.btn{
+    background-color: rgb(83, 38, 245);
+    float: left;
+    margin-top: 3px;
 }

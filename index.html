@@ -30,6 +30,7 @@
         <p>We start each project by understanding your business goal, the users needs and the product requirement.</p>
         <p>Then we help translate them into effective and elegant solutions.</p>
     </div>
+    <!--services-->
     <div class="services pt-3 text-white text-center">
         <div class="service-content">
             <H2 class="">SERVICES</H2>
@@ -46,7 +47,9 @@
             <h3 class="text-center">PORTFOLIO</h3>
             <div class="row text-center">
                 <div class="col-3 pb-3">
-                    <img class="img-thumbnail img-responsive" src="./img/portfolio/work4.jpg" alt="">
+                    <div class="image4">
+                        <img class="img-thumbnail img-responsive" src="./img/portfolio/work4.jpg" alt="">
+                    </div>   
                 </div>
                 <div class="col-3 pb-3">
                     <img class="img-thumbnail img-responsive" src="./img/portfolio/work3.jpg" alt="">
@@ -79,15 +82,16 @@
             <form action="">
                 <div class="row">
                     <div class="col-6">
-                        <input type="text" class="form-control" placeholder="Name...">
+                        <input type="text" class="form-control" name="name" placeholder="Name..." id="name" autocomplete="off">
                     </div>
                     <div class="col-6">
-                        <input type="text" class="form-control" placeholder="Email...">
+                        <input type="email" class="form-control" name="email" placeholder="Email..." autocomplete="off">
                     </div>
                     <div class="col mt-3">
-                        <textarea class="form-control" rows="10" id="comment" placeholder="Your message here..."></textarea>
+                        <textarea class="form-control" rows="10" name="message" placeholder="Your message here..." autocomplete="off"></textarea>
                     </div>
                 </div>
+                <button type="submit" class="btn text-white" name="submit">SEND</button>
             </form>
         </div>  
     </div>
