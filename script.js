@@ -10,4 +10,16 @@ $(document).ready(function(event){
     $('.portfolio').hover(function(){
         $('.one').toggle();
     });
+    document.getElementById("image1").addEventListener("click", function() {
+        document.querySelector("#image1").style.display = "none";
+        document.querySelector("#design").style.display = "block";
+      });
+    document.getElementById("image2").addEventListener("click", function() {
+        document.querySelector("#image2").style.display = "none";
+        document.querySelector("#development").style.display = "block";
+      });
+    document.getElementById('image3').addEventListener('click',function(){
+        document.querySelector('#image3').style.display='none';
+        document.querySelector('#product').style.display='block';
+    });
 });

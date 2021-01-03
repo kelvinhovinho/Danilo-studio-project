@@ -60,4 +60,12 @@ header{
     border: 5px solid white;
     display: none;
 }
-  
+#design{
+    display: none;
+}
+#development{
+    display: none;
+}
+#product{
+    display: none;
+}
