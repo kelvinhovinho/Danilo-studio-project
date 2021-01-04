@@ -18,7 +18,7 @@ This a website created for a company that deals with design, software developmen
 ## Live Page 
 
 
-```https://kelvinhovinho.github.io/Danilo-studio-project/```
+https://kelvinhovinho.github.io/Danilo-studio-project/
 
 
 ## Features
