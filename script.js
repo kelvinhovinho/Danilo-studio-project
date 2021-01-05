@@ -1,6 +1,6 @@
 $(document).ready(function(event){
     $('.btn').click(function(){
-        var name =$('#name').val();
+        var name =$('#mce-FNAME').val();
         if(name==""){
             alert("please provide a name");
         }else{
